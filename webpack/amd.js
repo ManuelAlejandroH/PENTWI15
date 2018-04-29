@@ -1,4 +1,4 @@
-define('amd',['math'], function(math){
+define('amd',["./math"], function(math){
     var amd = {
         updateSum: function (){
             document.getElementById('sum').innerHTML = math.sum(
@@ -8,4 +8,4 @@ define('amd',['math'], function(math){
         }
     }
     return amd;
-});
+}); 
